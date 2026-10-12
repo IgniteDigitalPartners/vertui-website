@@ -8,4 +8,4 @@ The full-width page opener: an uppercase headline over landscape photography, a 
 - One accent phrase per headline at most.
 - Headlines promise an outcome for the landscape: "Precision Treatments for Lush, Healthy Landscapes".
 
-The preview uses a `blue-lobelia` ground in place of photography.
+The preview uses `hero-lawn-and-border.png` from the Photography assets.

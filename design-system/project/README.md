@@ -39,8 +39,8 @@ Vertui Horticulture sells super-concentrated biological plant treatments to home
 
 ## Imagery
 
-- Real photography of lawns, gardens, roots and seedlings, plus product bottle shots on white. Hero photography carries a dark overlay so white type holds 4.5:1.
-- Product imagery sits on the product's accent colour or on white, never on a gradient.
+- Real photography of lawns, borders, rooftop and greenhouse gardens, darkened under a uniform overlay so white type reads on top. Use `hero-lawn-and-border.png`, `hero-rooftop-garden.png` or `hero-greenhouse.png` behind hero headlines.
+- Product imagery is the bottle shot on white (`bottle-vigor-spray-max.png`), never on a gradient. Each product's bottle carries its own label colours; pair it with that product's accent token.
 
 ## Iconography
 
@@ -48,4 +48,7 @@ Vertui Horticulture sells super-concentrated biological plant treatments to home
 
 ## Logo
 
-- The logo file (`Vertui-Horticulture-01-scaled.png` on vertui.com) is not in this repository, so this system has no logo asset yet. Until it is added under `assets/Logos/`, set "Vertui" in Poppins 700 `jadestone` and never redraw the mark.
+- The logo is a ring of overlapping arcs in `jadestone`, `spinnaker`, `crystal-rapids`, `poisonous-ice-cream`, `patrinia`, `midsummer-field`, `logo-green` and `logo-deep-teal`, with the wordmark across it: "VERTUI" in Poppins Bold `blue-lobelia` and "HORTICULTURE" letter-spaced in Poppins Medium `jadestone`.
+- On white or light grounds use `vertui-lockup.png`. On `blue-lobelia` use `vertui-lockup-reversed.png`, where the wordmark turns `poisonous-ice-cream`, or the all-white `vertui-lockup-white.png`. Use `vertui-mark.png` (the ring alone) for favicons, avatars and small spaces.
+- Keep the clear space shown on the brand guide's clear-space page on every side. Don't recolour, stretch, rotate or redraw the logo, and don't set it on photography without a solid ground behind it.
+- The logo files here are preview-resolution copies (about 450px) exported from Canva's "Vertui" folder. Replace them with full-resolution exports before using them in production.

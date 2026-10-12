@@ -9,4 +9,4 @@ The front face of a product flip box: product imagery, growth-stage label, produ
 - The label is the growth stage the product serves ("Seed Germination & Early Root Development").
 - Product accents mark a product, not a state. Don't use `product-root-ignite-bio` or `product-hydro-balance-pro` as text on white.
 
-The preview's coloured band stands in for the product photography, which isn't in this repository.
+Use the product's bottle shot on white (`vt-product__media--photo`, as in the Vigor Spray Max card); the coloured band (Soil Vitality Max card) is the fallback until a product has a photo.
