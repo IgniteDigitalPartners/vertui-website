@@ -1,0 +1,53 @@
+<!-- @dsCard height=288 -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Vertui</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+<style>
+  html, body { margin:0; height:100%; }
+  body { background:var(--white); color:var(--blue-lobelia); font-family:var(--font-sans); overflow:hidden; }
+  .cover { position:relative; height:288px; overflow:hidden; }
+  .art { position:absolute; top:0; left:480px; width:480px; height:288px; overflow:hidden; }
+  .art svg { display:block; width:480px; height:288px; }
+  .teal { fill:var(--jadestone); }
+  .field { fill:var(--midsummer-field); }
+  .lime { fill:var(--poisonous-ice-cream); }
+  .ink { fill:var(--blue-lobelia); }
+  .tint { fill:var(--patrinia); }
+  .card { rx:var(--radius-15); }
+  .wash { fill:var(--patrinia); }
+  .words { position:absolute; left:40px; bottom:40px; max-width:440px; }
+  .name { margin:0; font-size:120px; line-height:.9; font-weight:700; letter-spacing:-.02em; color:var(--blue-lobelia); }
+  .tag { margin:10px 0 0 4px; font-size:14px; line-height:20px; color:var(--blue-lobelia); }
+</style>
+</head>
+<body>
+<div class="cover">
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 480 288" width="480" height="288">
+<!--
+  blocks      jadestone 200x248 slab bled off the top; blue-lobelia 160x120; midsummer-field 160x108; patrinia 100x60 tint
+  arrangement one tall slab with satellites stepping down to the right, cut at radius-15, like the site's stacked rounded sections
+  pattern     pills from radius-pill: the brand's own gradient pill buttons, in poisonous-ice-cream and midsummer-field over the slab
+              ("soft, friendly, large radii" row: every action on vertui.com is a 50px pill)
+  scales      gaps space-20 / space-40; radii radius-15 (blocks) and half-height pills (radius-pill at 20px tall = rx 10)
+-->
+  <rect class="teal card" x="40" y="-20" width="200" height="248" rx="15"/>
+  <rect class="ink card" x="260" y="-20" width="180" height="140" rx="15"/>
+  <rect class="field card" x="260" y="140" width="180" height="108" rx="15"/>
+  <rect class="tint card" x="140" y="248" width="100" height="60" rx="15"/>
+  <rect class="lime" x="60" y="40" width="160" height="20" rx="10"/>
+  <rect class="field" x="60" y="80" width="120" height="20" rx="10"/>
+  <rect class="lime" x="60" y="120" width="80" height="20" rx="10"/>
+  <rect class="lime" x="280" y="80" width="120" height="20" rx="10"/>
+</svg>
+</div>
+<div class="words">
+  <h1 class="name">Vertui</h1>
+  <p class="tag">Maximize Soil Health, Naturally.</p>
+</div>
+</div>
+</body>
+</html>
